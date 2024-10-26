@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>GPA Calculator</h1>
+      <table id="gpa-table">
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Grade</th>
+            <th>Credits</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <button id="add-row" class="btn">Add Row</button>
+      <button id="calculate-gpa" class="btn">Calculate GPA</button>
+      <button id="reset" class="btn">Reset</button>
+      <p id="gpa-result">GPA: -</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
